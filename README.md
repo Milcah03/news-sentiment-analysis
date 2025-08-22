@@ -16,10 +16,15 @@ The pipeline:
 ## 📂 Project Structure  
 
 news-sentiment-analysis/
+
 │── dags/ # Airflow DAGs
+
 │── scripts/ # Python scripts (fetch, sentiment, load)
+
 │── requirements.txt # Dependencies
-│── .env # Environment variables (not committed)
+
+│── .env # Environment variables 
+
 │── README.md # Project documentation
 
 
@@ -38,7 +43,9 @@ news-sentiment-analysis/
 
 ## 🏗️ Architecture Diagram  
 
-![Architecture](https://chatgpt.com/s/m_68a860bd4b688191977228004bb90187)  
+ <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/55a4ac44-6fa4-46fb-bf55-b7a879f854a4" />
+ 
 
 ---
+
 
