@@ -1,0 +1,13 @@
+# Python virtual environment
+airflow-venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+
+# Generated data
+processed_articles.json
