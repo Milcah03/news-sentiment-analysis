@@ -3,9 +3,9 @@ from airflow.operators.bash import BashOperator
 from datetime import datetime, timedelta
 import os
 
-# Linux-native folder for intermediate files
+
 DATA_DIR = "/home/milkah/airflow_data"
-os.makedirs(DATA_DIR, exist_ok=True)  # ensure the folder exists
+os.makedirs(DATA_DIR, exist_ok=True) 
 
 PYTHON_PATH = "/mnt/c/Users/Administrator/news/airflow-venv/bin/python"
 SCRIPTS_DIR = "/mnt/c/Users/Administrator/news/scripts"
